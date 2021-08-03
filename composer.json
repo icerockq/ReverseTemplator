@@ -1,0 +1,17 @@
+{
+    "name": "templatorphp/templator",
+    "autoload": {
+        "psr-4": {"Templator\\": "src/Templator"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Templator\\Test\\": "test/Templator/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "require": {
+        "ext-mbstring": "*"
+    }
+}
